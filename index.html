@@ -25,8 +25,8 @@
       <img id="stocking" src="images/santa.png"
       <br>
       <br>
-      <div id="input">
-      <textarea rows="5" type="text" cols="70"></textarea> 
+      <div>
+      <textarea rows="5" type="text" cols="70" id="input"></textarea> 
       </div>
       <br>
       <div id="styleSelect">
@@ -34,19 +34,26 @@
           <option value="none" disabled selected>Select Language</option>
            <option value="arabic">Modern Standard Arabic</option>
            <option value="armenian">Armenian</option>
-           <option value="navajo">Navajo</option>
+           <option value="lakota">Lakota</option>
            <option value="german">German</option>
+           <option value="cherokee">Cherokee</option>
         </select>
         </div>
         <br>
         <br>
-        <button>Translate</button>
+        <button id="button">Translate</button>
         <br>
         <br>
         <br>
         <div id="output"> Output <br> </div>
 
         
-      <script src="js/main.js"></script>
+      <script src="javascripts/translator.js"></script>
+      <script src="javascripts/as-armenian.js"></script>
+      <script src="javascripts/bm-cherokee.js"></script>
+      <script src="javascripts/bm-german.js"></script>
+      <script src="javascripts/jp-lakota.js"></script>
+      <script src="javascripts/ps_arabic.js"></script>
+      <script src="javascripts/main.js"></script>
   </body>
 </html>
