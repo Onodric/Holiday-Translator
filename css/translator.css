@@ -1,0 +1,157 @@
+  /************BG GIF**********/
+  
+
+  html {
+  background: url('blue.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: 'Pixel-NES';
+    src: url('pixel NES.otf');
+
+}
+
+body {
+	font-family: "Pixel-NES";
+	text-align:  center;
+}
+
+
+/**********HEADER***********/
+
+
+#mainHead {
+	text-align: center;
+	font-size:  6em;
+}
+
+#redHead {
+	color: #CC1100;
+	text-shadow: 10px 10px black;
+}
+
+#greenHead {
+	color: #61B329;
+	text-shadow: 8px 8px black;
+
+}
+
+
+/**********INPUTS**********/
+
+
+textarea {
+	background-color: black;
+	border: .5em solid #CC1100;;
+	font-size:  1em;
+	margin: 0 auto;
+	font-family: "Pixel-NES", futura;
+	color:  white;
+	background-color: rgba(70,0,0,0.26); 
+
+}
+
+input {
+	text-align: center;
+}
+
+#explain {
+	text-align: center;
+	font-size: 1.7em;
+	text-shadow: .5px .5px ;
+
+
+}
+
+option {
+	font-family: 'Pixel-NES';
+	width: 100%;
+	color:  red;
+}
+#santa {
+	float: right;
+	margin: 0 auto;
+	width: 15%;
+}
+
+#stocking {
+	float: left;
+	margin:  0 auto;
+	width:  15%;
+}
+
+#output {
+	margin-bottom: 5em;
+	background-color: rgba(70,0,0,0.26); 
+	padding:  2em;
+	color: white;
+}
+
+button {
+	padding: 1.3em;
+	font-family: 'Pixel-NES';
+	font-size: 1em;
+	border:  .4em solid black;
+	background-color:  white;
+
+
+}
+
+select {
+	font-family: 'Pixel-NES';
+}
+
+
+
+
+
+select {
+	-webkit-appearance: none;
+	font-family: 'Pixel-NES';
+	height: 3.5em;
+	font-size: 1.4em;
+	border: .3em solid black;
+	background-color: black;
+	color:  white;
+
+}
+
+#styleSelect {
+	text-indent: 20px;
+}
+
+
+/*************ANIMATION************/
+
+
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+	 font-size:  4em;
+	 text-align: center;
+}
+
+.blink {
+  animation: blink-animation 2s steps(3, start) infinite;
+  -webkit-animation: blink-animation 2s steps(3, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
