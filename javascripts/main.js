@@ -22,3 +22,13 @@ document.getElementById("button").addEventListener("click", function(){
   outputDOM.innerHTML = Translator.getTranslatedPhrase().join(" ");
 });
 
+document.getElementById("textToSpeech").addEventListener("click", function() {
+  // implement text to speech
+  var synth = window.speechSynthesis;
+  var utterThis = new SpeechSynthesisUtterance(outputDOM.innerHTML);
+  console.log("text to speech", outputDOM.innerHTML);
+  utterThis.voice = "Alice";
+  synth.speak(utterThis);
+
+})
+
