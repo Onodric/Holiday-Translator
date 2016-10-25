@@ -19,7 +19,7 @@ var Translator = (function(callItself){
     return englishToLakota[word];
   };
   callItself.setLakota = function(english, Lakota){
-    englishToLakota[english] = lokata;
+    englishToLakota[english] = lokota;
     return englishToLakota[english];
   };
 
